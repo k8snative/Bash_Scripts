@@ -6,7 +6,7 @@ This script is used in CI/CD pipeline, I have used it in AWS CodeBuild.
 In source code there is a folder named as **aws** and inside that there is another folder **lambda** 
 so this script actually looking for **aws/lambda/** if that is present, it searches that any changes have been made to "lambda" folder (for changes it uses hashing technique). So if there will be any changes then there must be different hash.
 
-## This script have four functions 
+## This script have five functions 
 The main body from where the script starts
 ### Following are functions
 
